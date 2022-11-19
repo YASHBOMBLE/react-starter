@@ -1,7 +1,10 @@
+import "./Apple.css"
 function Apple(){
     return(
         <>
-        <h1>Apple🍎</h1>
+        <div className="container">
+        <h1>Apple 🍎</h1>
+        </div>
         </>
     )
 }
