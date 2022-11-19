@@ -1,13 +1,14 @@
-
+import "./Mango.css";
 import Apple from "./Apple.js";
 function Mango()
 {
     return(
         <>
         <Apple />
-        <h1>Mango🥭</h1>
+        <div className="Design">
+        <h1>Mango 🥭</h1>
+        </div>
         </>
     )
 }
-
 export default Mango;
